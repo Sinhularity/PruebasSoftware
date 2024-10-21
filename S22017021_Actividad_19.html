@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kevin S.F. García</title>
+    <meta name="viewport" content="width=device-width">
+</head>
+<body>
+    <p>"This is Kevin S.F.G HTML file"</p>
+    <form action="/my-handling-form-page" method="post">
+        <p>
+            <label for="nombreCompleto">Escribe tu nombre completo:<br></label>
+            <input type="text" id="nombreCompleto" name="NombreCompleto" size="30" placeholder="Kevin Sebastián Frias García">
+            <br><br>
+            <label for="correoElectronico">Escribe tu correo electrónico:<br></label>
+            <input type="email" id="correoElectronico" name="CorreoElectronico" size="30" placeholder="zS22017021@estudiantes.uv.mx">
+            <br><br>
+            <label for="contrasenia">Escribe tu contraseña:<br></label>
+            <input type="password" id="contrasenia" name="Contraseña" size="10" placeholder="12345678">
+            <br><br>
+        </p>
+        <fieldset>
+            <legend>
+                Selecciona tu género:
+            </legend>
+            <div>
+                <input type="radio" id="hombre" name="Género">
+                <label for="hombre">Hombre</label><br>
+            </div>
+            <div>
+                <input type="radio" id="mujer" name="Género">
+                <label for="mujer">Mujer</label><br>
+            </div>
+            <div>
+                <input type="radio" id="otro" name="Género">
+                <label for="otro">Otro</label><br>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>
+                Elige algunos pasatiempos:
+            </legend>
+            <div>
+                <input type="checkbox" id="leer" name="Pasatiempos">
+                <label for="leer">Leer</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="correr" name="Pasatiempos">
+                <label for="correr">Correr</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="nadar" name="Pasatiempos">
+                <label for="nadar">Nadar</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="ajedrez" name="Pasatiempos">
+                <label for="ajedrez">Ajedrez</label><br>
+            </div>
+            <div>
+                <input type="checkbox" id="videojuegos" name="Pasatiempos">
+                <label for="videojuegos">Videojuegos</label><br>
+            </div>
+        </fieldset>
+        <br>
+        <label for="comentario">Escribe un comentario:<br></label>
+        <textarea id="comentario" name="Comentario" rows="4" cols="50" placeholder="Escribe aquí tus comentarios..."></textarea>
+        <br>
+        <br>
+        <label for="paisOrigen" name="PaisOrigen">Selecciona tu país de origen:<br></label>
+        <select id="paisOrigen" name="PaisOrigen">
+            <option value="mexico">México</option>
+            <option value="usa">E.U</option>
+            <option value="canada">Canadá</option>
+            <option value="alemania">Alemania</option>
+            <option value="francia">Francia</option>
+            <option value="españa">España</option>
+            <option value="italia">Italia</option>
+            <option value="japon">Japón</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Reiniciar</button>
+    </form>
+</body>
+</html>
